@@ -16,7 +16,7 @@
               width="30px"
               :class="{ 'q-mr-sm': $q.screen.gt.xs || !showLogout }"
             />
-            <span v-if="$q.screen.gt.xs || !showLogout">CTFNote</span>
+            <span v-if="$q.screen.gt.xs || !showLogout">SNI NOTE</span>
           </q-btn>
         </ctf-note-link>
         <slot name="after-title" />
